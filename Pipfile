@@ -1,12 +1,13 @@
 [[source]]
+name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-name = "pypi"
 
 [packages]
-pulp = "==2.5"
-numpy = "==1.21"
+gurobipy = "==9.5.0"
 jupyter = "==1.0"
+numpy = "==1.21"
+pulp = "==2.5"
 
 [dev-packages]
 
